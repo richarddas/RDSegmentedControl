@@ -1,6 +1,6 @@
 //
 //  ViewController.h
-//  RDSegmentedControl
+//  RDSegmentedImageControl
 //
 //  Created by Richard Das on 7/5/13.
 //  Copyright (c) 2013 RNA Productions, Ltd. All rights reserved.
