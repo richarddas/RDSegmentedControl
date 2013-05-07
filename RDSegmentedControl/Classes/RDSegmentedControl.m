@@ -63,6 +63,7 @@ UIImage *dividerImageRef;
             {
                 CGRect dividerRect = CGRectMake( 0.f, 0.f, dividerImage.size.width, dividerImage.size.height );
                 dividerRect.origin.x = maxWidth + CGRectGetWidth( control.frame );
+                dividerRect.origin.y = (maxHeight - dividerRect.size.height)/2.f;
                 
                 UIImageView* divider = [[UIImageView alloc] initWithImage:dividerImage];
                 divider.frame = dividerRect;
